@@ -3,7 +3,7 @@
     <v-container fluid class="px-6 px-md-12 px-lg-16">
       <div class="d-flex align-center w-100">
         <a class="brand text-gray text-decoration-none" href="#">
-          Rodi<span>Labs</span>
+          Rodi<span >Labs</span>
         </a>
 
         <div class="nav-pill d-none d-md-flex align-center mx-auto pa-1">

@@ -1,21 +1,21 @@
   <template>
     <v-app>
       <v-main class="bg-black text-white">
-        <v-container fluid class="pa-8" style="min-height: 100vh;">
+        <v-container fluid class="pa-8" style="min-height: 90%;">
 
 
 
-          <v-row align="center" class="mt-16 pt-16">
+          <v-row align="center" class="mt-4 pt-4">
             <v-col cols="12" md="7">
-              <div class="d-flex flex-wrap ga-3 mb-4">
-                <v-chip variant="outlined" class="text-uppercase font-weight-bold">
-                  ▲ Vercel Solution Partner
+              <div class=" d-flex flex-wrap ga-1 mb-1">
+                <v-chip variant="outlined" size="small" class=" brand text-h1 text-uppercase font-weight-light ">
+                  ▲Vercel <span> Solution Partner</span>
                 </v-chip>
-                <v-chip variant="outlined" class="text-uppercase font-weight-bold">
-                  ◆ Netlify Solution Partner
+                <v-chip variant="outlined" class="brand text-lowercase font-weight-light" size="small">
+                  ◆ Netlify <span>Solution Partner </span>
                 </v-chip>
-                <v-chip variant="outlined" class="text-uppercase font-weight-bold">
-                  〰 Tailwind Solution Partner
+                <v-chip variant="outlined" class="brand  text-lowecase font-weight-light" size="small">
+                  〰 Tailwind <span>Solution Partner</span>
                 </v-chip>
               </div>
 
@@ -31,11 +31,11 @@
               </p>
 
               <div class="d-flex align-center ga-6">
-                <v-btn color="white" class="text-black font-weight-black" rounded="lg" size="large">
+                <v-btn color="white" class="text-black font-weight-black text-sm" rounded="lg" size="small">
                   See Available Migrations
                 </v-btn>
 
-                <v-btn variant="text" class="text-white font-weight-black" size="large">
+                <v-btn variant="text" class="text-white font-weight-black text-sm" size="small">
                   See Other Services
                 </v-btn>
               </div>
@@ -43,7 +43,12 @@
 
             <v-col cols="12" md="5" class="d-flex justify-center">
               <v-card width="340" height="430" rounded="xl" color="grey-darken-4" class="pa-8 elevation-24">
-                <div class="text-uppercase font-weight-black text-yellow-lighten-3 mb-16">
+                <div class="text-uppercase font-weight-black  mb-16 justify-center" style="
+      letter-spacing: 2px;
+      background: linear-gradient(to right, #fff, #777);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    ">
                   Heavy Migration
                 </div>
 
@@ -55,8 +60,8 @@
                   <h2 class="text-h4 font-weight-bold">Next.js app</h2>
                 </div>
 
-                <div class="text-uppercase text-grey mt-16 font-weight-bold">
-                  Powered by Candycode
+                <div class="text-uppercase text-grey mt-16 font-weight-bold text-sm">
+                  Powered by Rodilabs
                 </div>
               </v-card>
             </v-col>
@@ -65,3 +70,19 @@
       </v-main>
     </v-app>
   </template>
+
+<style scoped>
+.brand {
+  font-size: small;
+  font-weight: 90;
+
+  letter-spacing: 0;
+}
+
+.brand span {
+  color: #8e949d;
+  font-weight: 70;
+  font-size: x-small;
+  padding: 3px;
+}
+</style>

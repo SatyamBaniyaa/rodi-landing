@@ -1,6 +1,6 @@
 <template>
 
   <v-main>
-    <!-- <Services /> -->
+    <Services />
   </v-main>
 </template>

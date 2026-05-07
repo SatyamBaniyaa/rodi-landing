@@ -5,11 +5,19 @@
 
 
 
+<<<<<<< HEAD
           <v-row align="center" class="mt-4 pt-4">
             <v-col cols="12" md="7">
               <div class=" d-flex flex-wrap ga-1 mb-1">
                 <v-chip variant="outlined" size="small" class=" brand text-h1 text-uppercase font-weight-light ">
                   ▲Vercel <span> Solution Partner</span>
+=======
+          <v-row align="center" class="mt-16 pt-16">
+            <v-col cols="12" md="7">  
+              <div class="d-flex flex-wrap ga-3 mb-4">
+                <v-chip variant="outlined" class="text-uppercase font-weight-bold">
+                  ▲ Vercel Solution Partner
+>>>>>>> e976cf7 (minor changes)
                 </v-chip>
                 <v-chip variant="outlined" class="brand text-lowercase font-weight-light" size="small">
                   ◆ Netlify <span>Solution Partner </span>

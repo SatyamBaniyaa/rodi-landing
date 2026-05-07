@@ -1,8 +1,9 @@
 <template>
-
-  <v-main>
+  <main>
     <CommonNavbar />
     <Services />
 
-  </v-main>
+
+
+  </main>
 </template>
